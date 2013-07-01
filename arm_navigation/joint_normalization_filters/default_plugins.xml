@@ -1,0 +1,33 @@
+<class_libraries>
+  <library path="lib/libjoint_normalization_filters">
+    <class name="joint_normalization_filters/NormalizeFilterJointTrajectory" 
+	   type="joint_normalization_filters::NormalizeJointTrajectory<arm_navigation_msgs::FilterJointTrajectory>" 
+	   base_class_type="filters::FilterBase<arm_navigation_msgs::FilterJointTrajectory>">
+      <description>
+        Wraps continuous joints between -M_PI to M_PI.
+      </description>
+    </class>
+    <class name="joint_normalization_filters/NormalizeFilterJointTrajectoryWithConstraints" 
+	   type="joint_normalization_filters::NormalizeJointTrajectory<arm_navigation_msgs::FilterJointTrajectoryWithConstraints>" 
+	   base_class_type="filters::FilterBase<arm_navigation_msgs::FilterJointTrajectoryWithConstraints>">
+      <description>
+        Wraps continuous joints between -M_PI to M_PI.
+      </description>
+    </class>
+
+    <class name="joint_normalization_filters/UnNormalizeFilterJointTrajectory" 
+	   type="joint_normalization_filters::UnNormalizeJointTrajectory<arm_navigation_msgs::FilterJointTrajectory>" 
+	   base_class_type="filters::FilterBase<arm_navigation_msgs::FilterJointTrajectory>">
+      <description>
+        Uses the current joint state information to unwrap continuous joints to the nearest position to the current joint state. This filter will incrementally update points in a trajectory. This filter listens for a message on the "/joint_states" topic for the current joint state.
+      </description>
+    </class>
+    <class name="joint_normalization_filters/UnNormalizeFilterJointTrajectoryWithConstraints" 
+	   type="joint_normalization_filters::UnNormalizeJointTrajectory<arm_navigation_msgs::FilterJointTrajectoryWithConstraints>" 
+	   base_class_type="filters::FilterBase<arm_navigation_msgs::FilterJointTrajectoryWithConstraints>">
+      <description>
+        Uses the current joint state information to unwrap continuous joints to the nearest position to the current joint state. This filter will incrementally update points in a trajectory. This filter listens for a message on the "/joint_states" topic for the current joint state.
+      </description>
+    </class>
+  </library>
+</class_libraries>

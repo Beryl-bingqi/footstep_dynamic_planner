@@ -1,0 +1,2 @@
+/usr/bin/ar cr /home/beryl/fuerte_workspace/sandbox/humanoid_navigation_ros/arm_navigation/planning_environment/lib/libgtest.a  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib /home/beryl/fuerte_workspace/sandbox/humanoid_navigation_ros/arm_navigation/planning_environment/lib/libgtest.a

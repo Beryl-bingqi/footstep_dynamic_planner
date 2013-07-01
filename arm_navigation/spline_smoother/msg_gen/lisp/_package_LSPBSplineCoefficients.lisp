@@ -1,0 +1,8 @@
+(cl:in-package spline_smoother-msg)
+(cl:export '(COEFFICIENTS-VAL
+          COEFFICIENTS
+          LINEAR_SEGMENT_DURATION-VAL
+          LINEAR_SEGMENT_DURATION
+          QUADRATIC_SEGMENT_DURATION-VAL
+          QUADRATIC_SEGMENT_DURATION
+))

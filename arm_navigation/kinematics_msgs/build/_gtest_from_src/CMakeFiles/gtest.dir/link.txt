@@ -1,0 +1,2 @@
+/usr/bin/ar cr /home/beryl/fuerte_workspace/sandbox/humanoid_navigation_ros/arm_navigation/kinematics_msgs/lib/libgtest.a  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib /home/beryl/fuerte_workspace/sandbox/humanoid_navigation_ros/arm_navigation/kinematics_msgs/lib/libgtest.a

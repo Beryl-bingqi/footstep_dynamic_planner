@@ -1,0 +1,22 @@
+(cl:in-package arm_navigation_msgs-srv)
+(cl:export '(ROBOT_STATE-VAL
+          ROBOT_STATE
+          CHECK_COLLISIONS-VAL
+          CHECK_COLLISIONS
+          CHECK_PATH_CONSTRAINTS-VAL
+          CHECK_PATH_CONSTRAINTS
+          CHECK_GOAL_CONSTRAINTS-VAL
+          CHECK_GOAL_CONSTRAINTS
+          CHECK_JOINT_LIMITS-VAL
+          CHECK_JOINT_LIMITS
+          GROUP_NAME-VAL
+          GROUP_NAME
+          PATH_CONSTRAINTS-VAL
+          PATH_CONSTRAINTS
+          GOAL_CONSTRAINTS-VAL
+          GOAL_CONSTRAINTS
+          ERROR_CODE-VAL
+          ERROR_CODE
+          CONTACTS-VAL
+          CONTACTS
+))
